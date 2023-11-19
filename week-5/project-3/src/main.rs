@@ -59,7 +59,7 @@ fn main() {
 
     let mut quantity = String::new();
 
-    println!("Input your prefered number of portions here.");
+    println!("Input your preferred number of portions here.");
     println!("{}", quantity);
     io::stdin().read_line(&mut quantity).expect("Your input must be numerical.");
     let mut quantity:f32 = quantity.trim().parse().expect("Your input is invalid. Please try again.");
