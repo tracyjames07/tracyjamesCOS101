@@ -77,5 +77,5 @@ fn education_status() {
     let mut class_level = String::new();
     println!("What class are they currently in? {}", class_level);
     io::stdin().read_line(&mut class_level).expect("Invalid input. Try again, please.");
-    
+     
 }
