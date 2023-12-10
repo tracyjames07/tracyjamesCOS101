@@ -93,4 +93,4 @@ fn current_job() {
 
 fn main() {
 
-    if
+    if current_job = aps1 && 
