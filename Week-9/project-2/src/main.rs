@@ -8,7 +8,7 @@ fn main() {
     let mut department = vec!["\t\tDEPARTMENT", "\t\t\tAccounting", "\t\t\tEconomics", "\t\t\tComputer Science", "\t\t\tElectrical Engineering", "\t\t\tMechanical Engineering"];
     let mut level = vec!["\t\t\t\t\tLEVEL", "\t\t\t\t\t 300", "\t\t\t\t\t 100", "\t\t\t 200", "\t\t 200", "\t\t 100"];
 
-    let mut pau_smis = std::fs::File::create("PAU-SMIS.xlsx").expect("Unable to create file.");
+    let mut pau_smis = std::fs::File::create("PAU-SMIS.txt").expect("Unable to create file.");
 
     pau_smis.write_all("PAU SMIS".as_bytes()).expect("Unable to write into the file.");
 

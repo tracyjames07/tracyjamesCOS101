@@ -8,7 +8,7 @@ fn main() {
     let mut ministry = vec!["\t\t\tMINISTRY", "\t\tInternal Affairs", "\t\t\tJustice", "\tDefense", "\t\tPower & Steel", "\t\tPetroleum"];
     let mut geo_zone = vec!["\t\t\tGEOPOLITICAL ZONE", "\tSouth West", "\t\t\t\tNorth East", "\t\t\t\tSouth South", "\t\tSouth West", "\t\t\tSouth East"];
 
-    let mut isd = std::fs::File::create("EFCC-ISD.xlsx").expect("Unable to create file.");
+    let mut isd = std::fs::File::create("EFCC-ISD.txt").expect("Unable to create file.");
 
     isd.write_all("Information Service Department".as_bytes()).expect("Unable to write into the file.");
 
