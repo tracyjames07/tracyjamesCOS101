@@ -28,10 +28,10 @@ fn main() {
 
     };
 
-println!("\nThe prive for three HP laptops is {}.
-            The prive for three IBM laptops is {}.
-            The prive for three Toshiba laptops is {}.
-            The prive for three Dell laptops is {}.",
+println!("\nThe price for three HP laptops is {}.
+            The price for three IBM laptops is {}.
+            The price for three Toshiba laptops is {}.
+            The price for three Dell laptops is {}.",
             laptop1.hp, laptop1.ibm, laptop1.toshiba, laptop1.dell);
 
 }
